@@ -62,7 +62,7 @@
   </style>
 </head>
 <body>
-  <iframe id="player-frame" src="https://www.2embed.skin/embed/tmdbId" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen></iframe>
+  <iframe id="player-frame" src="https://www.2embed.cc/embed/IMDB-ID" width="100%" height="100%" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
   <div id="input-container">
     <input type="text" id="title-input" placeholder="Search Media Title">
@@ -88,9 +88,9 @@
             var playerFrame = document.getElementById("player-frame");
             
             if (mediaType === "tv") {
-              playerFrame.src = "https://www.2embed.skin/embed/" + tmdbId + "&season=1&episode=1&server=2";
+              playerFrame.src = "https://www.2embed.cc/embedtvfull/IMDB-ID" + tmdbId + "&season=1&episode=1&server=2";
             } else {
-              playerFrame.src = "https://www.2embed.skin/embed/" + tmdbId + "&server=2";
+              playerFrame.src = "https://www.2embed.cc/embed/IMDB-ID" + tmdbId + "&server=2";
             }
           } else {
             console.log("No results found.");
